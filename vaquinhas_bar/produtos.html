@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Catálogo de bebidas, petiscos, doces e itens de mercearia do Vaquinha's Bar.">
+<title>Produtos | Vaquinha's Bar</title><link rel="stylesheet" href="style.css">
+</head><body>
+<header class="topbar">
+<a class="brand" href="index.html"><span class="brand-icon">🐮</span><span>VAQUINHA'S <small>BAR & MERCEARIA</small></span></a>
+<button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" onclick="const n=document.querySelector('.nav'); const o=n.classList.toggle('open'); this.setAttribute('aria-expanded',o)">☰</button>
+<nav class="nav" aria-label="Navegação principal">
+<a href="index.html" >Início</a>
+<a href="produtos.html" aria-current="page">Produtos</a>
+<a href="promocoes.html" >Promoções</a>
+<a href="abastecimento.html" >Abastecimento</a>
+<a href="sobre.html" >Sobre</a>
+<a href="contato.html" >Contato</a>
+<a href="acesso.html" class="nav-cta" >Minha conta</a>
+</nav></header>
+<main class="page-main">
+<section class="page-heading"><span class="eyebrow">NOSSO ESTOQUE</span><h1>Achou, levou!</h1><p>Pesquise os produtos, filtre por categoria e adicione seus favoritos à sacola.</p><div class="page-heading-links"><a href="promocoes.html">Ver promoções →</a><a href="abastecimento.html">Consultar estoque →</a></div></section>
+<section class="section product-page-section"><div class="section-head"><div><h2>Catálogo de produtos</h2><p>Preços e quantidades abaixo são demonstrativos.</p></div><div class="search-wrap"><input id="search" type="search" placeholder="Buscar produto..." aria-label="Buscar produto"><select id="category"><option value="todos">Todas as categorias</option><option>Bebidas</option><option>Petiscos</option><option>Doces</option><option>Mercearia</option></select></div></div><div id="product-grid" class="product-grid"></div>
+<div class="cart-bar" id="cart-bar"><div class="cart-summary"><span id="cart-count">0 itens na sacola</span><strong id="cart-total">R$ 0,00</strong></div><button class="btn btn-primary" id="cart-toggle" type="button">Ver sacola</button></div><div class="cart-panel" id="cart-panel" hidden></div>
+<p class="fineprint">* A sacola é uma demonstração local. Ela não reserva produtos nem envia pedidos ou pagamentos ao estabelecimento.</p></section>
+</main>
+<footer>
+<a class="brand footer-brand" href="index.html"><span>🐮</span><span>VAQUINHA'S <small>BAR & MERCEARIA</small></span></a>
+<p>O seu pit stop de todo dia.</p>
+<div class="footer-links"><a href="produtos.html">Produtos</a><a href="acesso.html">Acessos</a><a href="contato.html">Contato</a></div>
+<small>© 2026 Vaquinha's Bar. Projeto demonstrativo — atualize os dados antes de publicar.</small>
+</footer>
+<script src="script.js"></script>
+</body></html>

@@ -1,0 +1,25 @@
+VAQUINHA'S BAR — SITE COM NAVEGAÇÃO EM PÁGINAS SEPARADAS
+
+COMO ABRIR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta vaquinhas_bar.
+3. Dê dois cliques em index.html.
+4. Use o menu superior para mudar de página. Cada item abre um arquivo HTML diferente.
+
+PÁGINAS INCLUÍDAS
+- index.html: Início
+- produtos.html: Catálogo, pesquisa, filtro e sacola demonstrativa
+- promocoes.html: Promoções e condições
+- abastecimento.html: Previsão de reposição e itens com estoque baixo
+- sobre.html: Informações sobre o estabelecimento
+- acesso.html: Atalhos para áreas exclusivas
+- clientes.html: Cadastro demonstrativo de clientes
+- parceiros.html: Formulário demonstrativo de parceiros/fornecedores/doadores
+- candidatos.html: Formulário demonstrativo de candidatos
+- administracao.html: Painel administrativo demonstrativo
+- contato.html: Formulário de contato
+
+A sacola mantém os itens entre páginas no mesmo navegador usando armazenamento local. A sacola, formulários, cadastros e painel são apenas demonstrações: não enviam pedidos, não recebem pagamentos e não salvam dados em um servidor.
+
+ANTES DE PUBLICAR
+Substitua produtos, preços, quantidades, promoções, datas e dados de contato pelos dados reais. Para uso comercial, implemente backend, banco de dados, autenticação segura, autorização por perfil e proteção de dados conforme a LGPD. Não utilize a página administrativa demonstrativa como acesso real.

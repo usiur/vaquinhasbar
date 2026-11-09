@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Previsão de reposição e produtos com estoque baixo no Vaquinha's Bar.">
+<title>Abastecimento | Vaquinha's Bar</title><link rel="stylesheet" href="style.css">
+</head><body>
+<header class="topbar">
+<a class="brand" href="index.html"><span class="brand-icon">🐮</span><span>VAQUINHA'S <small>BAR & MERCEARIA</small></span></a>
+<button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" onclick="const n=document.querySelector('.nav'); const o=n.classList.toggle('open'); this.setAttribute('aria-expanded',o)">☰</button>
+<nav class="nav" aria-label="Navegação principal">
+<a href="index.html" >Início</a>
+<a href="produtos.html" >Produtos</a>
+<a href="promocoes.html" >Promoções</a>
+<a href="abastecimento.html" aria-current="page">Abastecimento</a>
+<a href="sobre.html" >Sobre</a>
+<a href="contato.html" >Contato</a>
+<a href="acesso.html" class="nav-cta" >Minha conta</a>
+</nav></header>
+<main class="page-main">
+<section class="page-heading"><span class="eyebrow">NOVIDADES NO ESTOQUE</span><h1>Fique por dentro.</h1><p>Acompanhe a previsão de reposição e os produtos que podem estar perto de acabar.</p><div class="page-heading-links"><a href="produtos.html">Ver catálogo →</a><a href="contato.html">Enviar sugestão →</a></div></section>
+<section class="section stock-section"><div class="info-grid"><article class="info-card"><div class="info-icon">🚚</div><h3>Próxima reposição</h3><p class="big-info">14 nov 2026</p><p>Previsão de chegada de bebidas, salgadinhos e itens de mercearia. Data ilustrativa, sujeita a alteração.</p></article><article class="info-card"><div class="info-icon">⚠️</div><h3>Estoque limitado</h3><ul id="low-stock" class="stock-list"></ul><p class="muted">Consulte a equipe antes de se deslocar.</p></article><article class="info-card"><div class="info-icon">📦</div><h3>Quer sugerir um produto?</h3><p>Conte o que gostaria de encontrar por aqui. Sua sugestão ajuda a melhorar nosso mix.</p><a class="text-link" href="contato.html">Enviar sugestão →</a></article></div></section>
+</main>
+<footer>
+<a class="brand footer-brand" href="index.html"><span>🐮</span><span>VAQUINHA'S <small>BAR & MERCEARIA</small></span></a>
+<p>O seu pit stop de todo dia.</p>
+<div class="footer-links"><a href="produtos.html">Produtos</a><a href="acesso.html">Acessos</a><a href="contato.html">Contato</a></div>
+<small>© 2026 Vaquinha's Bar. Projeto demonstrativo — atualize os dados antes de publicar.</small>
+</footer>
+<script src="script.js"></script>
+</body></html>
